@@ -1,51 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style/main.css">
 </head>
 <body>
 	<div class="main-screen">
 		<header>
 			<div class="header-wrapper">
-				<a href="#"><img src="image/logo.svg"></a>
-				<nav>
-					<ul class="main-nav">
+				<a id="logo" href="#"><img id="logo_icon" src="image/logo.svg"></a>
+				<nav id="menu">
+					<ul>
 						<li class="nav-item nav-item-active"><a href="#" class="simple-text">Home</a></li>
 						<li class="nav-item"><a href="#" class="simple-text">Data policy</a></li>
 						<li class="nav-item"><a href="#" class="simple-text">Terms of use</a></li>
 					</ul>
 				</nav>
-				<a href="#">
-					<div class="header-block">
+				<a id="contact" href="#">
+					<div class="block-contact">
 						<span class="simple-text">Contact as</span> 
 						<img id="mail-icon" src="image/mail.svg">
 					</div>
 				</a>
+				<button id="mobile_button" class="nav-button"><img id="nav_icon_button" src="image/nav_button.svg"></button>
 			</div>
 		</header>
 		<div class="main-screen-content">
 			<div class="main-screen-content-wrapper">
 				<div class="main-screen-content-description">
-					<h1 class="text-title">Very important heeeeadline</h1>
-					<p class="simple-text">Consequat non adipisicing sit amet eu. Nostrud quis adipisicing eu velit tempor aliqua culpa nisi commodo exercitation. Anim tempor consequat velit qui dolor pariatur dolor amet.</p>
-					<div class="main-screen-content-description-info">
+					<h1>Very important heeeeadline</h1>
+					<p>Consequat non adipisicing sit amet eu. Nostrud quis adipisicing eu velit tempor aliqua culpa nisi commodo exercitation. Anim tempor consequat velit qui dolor pariatur dolor amet.</p>
+					<div class="main-screen-content-description-info">							
 						<a href="#"><img src="image/button.svg"></a>
-						<span class="simple-text">or scroll down to know more</span>
-						<img id="scroll-icon" src="image/scroll_icon.svg">
+						<span id="scroll_text">or scroll down to know more</span>
+						<img id="scroll_icon" src="image/scroll_icon.svg">
 					</div>
 				</div>
-				<img id="main-icon" src="image/alien_boy.svg">
+				<div class="main-icon">
+					<img id="main_icon" src="image/alien_boy.svg">
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="main-content"></div>
+	<div class="main-content">
+		<div class="main-content-block">
+			<img src="image/emoji_main.svg">
+			<div class="main-content-block-text">
+				<h2>HI, IM MR ROBOT, NICE TO MEET YOU, LEATHER BAG</h2>
+				<p>Reprehenderit cillum tempor qui laboris labore. Elit quis commodo enim pariatur consequat non amet eiusmod veniam cupidatat labore Lorem deserunt.</p>
+			</div>
+		</div>
+		<div class="main-content-list">
+			<ul class="list">
+				<li class="list-item">
+					<img src="image/emoji_1.svg">
+					<div class="list-item-text">
+						<h3>POOP-BOOP</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_2.svg">
+					<div class="list-item-text">
+						<h3>HE-HE . . . . . .</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_3.svg">
+					<div class="list-item-text">
+						<h3>BZZ-Z-Z-Z</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_4.svg">
+					<div class="list-item-text">
+						<h3>O MA GAD</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_5.svg">
+					<div class="list-item-text">
+						<h3>OH SHIT</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_6.svg">
+					<div class="list-item-text">
+						<h3>WAAAIT . . .</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+				<li class="list-item">
+					<img src="image/emoji_7.svg">
+					<div class="list-item-text">
+						<h3>#%!&%@</h3>
+						<p>Consequat non adipisicing sit amet eu. Nostrud quis adip.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
 	<footer>
 		<div class="footer-wrapper">
-			<div class="penny-wrapper"><img id="penny-image" src="image/penny.svg"></div>
-			<img id="baloon-image" src="image/baloon.svg">
-			<span class="simple-text">© Hello boy, do yo wanna play?</span>
+			<div class="img-wrapper">
+				<div class="penny-wrapper"><img id="penny-image" src="image/penny.svg"></div>
+				<img id="baloon-image" src="image/baloon.svg">
+			</div>
+			<span>© Hello boy, do yo wanna play?</span>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
